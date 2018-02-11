@@ -1,0 +1,55 @@
+body{
+	font-family: Impact, Charcoal, sans-serif;
+	background-color: black;
+}
+/* header */
+h1 {
+	text-align: center;	
+	font-size: 4.5em;
+	color: rgb(36, 243, 9);
+	background-color: black;
+	padding: .8em;
+	border: .05em solid rgb(36, 243, 9); 
+	margin: 0em;
+}
+/* main */
+.gameStyle {
+	margin: .1em;
+	border: .18em solid rgb(36, 243, 9);
+}
+h2 {
+	color: rgb(36, 243, 9);
+	text-align: center;
+	text-decoration: underline;
+} 
+h3 {
+	color: rgb(36, 243, 9);
+	text-align: center;
+}
+button {
+	font-size: 2em;
+	margin-top: .5em;
+}
+.wLStyle {
+	margin-top: 2em;
+}
+/* section */
+
+/* aside */
+li {
+	color: rgb(36, 243, 9);
+	font-size: 1.8em;
+}
+
+/* footer */
+footer {
+	text-align: center;
+	background-color: black;
+}
+h4 {
+	color: rgb(36, 243, 9);
+	border: .08em solid rgb(36, 243, 9);
+	font-size: 1.8em;
+	padding: 1em;
+	margin: 0;
+}

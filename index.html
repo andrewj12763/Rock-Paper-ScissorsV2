@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Rock Paper Scissors</title>
+	<link rel="stylesheet" href="assets/style/bootstrap.css">
+	<link rel="stylesheet" href="assets/style/style.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+	<!-- header -->
+	<header class="container">
+		<div class="row">
+			<!-- title -->
+			<h1>Rock Paper Scissors</h1>
+		</div>
+	</header>
+	<!-- main -->
+	<main class="container">
+		<div class="row">
+			<!-- section -->
+			<section class="col-xs-8">
+				<!-- game -->
+					<div>
+							<h2>Game</h2>
+							<div class="row">
+								<div class="col-xs-6">
+									<h3>Your Guess</h3>
+									<img id='yourGuessImg' src="assets/images/rps.png" width=200px align=middle alt="noose image">
+								</div>
+								<div class="col-xs-6">
+									<h3>Computer</h3>
+									<img id='computerImg' src="assets/images/rps.png" width=200px align=middle alt="noose image">
+								</div>
+							</div>
+							<div class="row">
+								<button id='rockBtn' class="col-xs-4">Rock</button>
+								<button id='paperBtn' class="col-xs-4">Paper</button>
+								<button id='scissorsBtn' class="col-xs-4">Scissors</button>
+							</div>
+							<div class="row">
+								<button class="col-xs-4">Play</button>
+								<div class="col-xs-4"></div>
+								<button class="col-xs-4">Retry</button>
+							</div>
+							<div class="row">
+								<div class="wLStyle">
+									<div>
+									<h3 class="col-xs-6">Wins:</h3>
+									<span id="Wins"></span>
+									</div>
+									<div>
+									<h3 class="col-xs-6">Losses:</h3>
+									<span id="losses"></span>
+									</div>
+								</div>	
+							</div>
+					</div>	
+			</section>
+			<!-- asside -->	
+			<aside class="col-xs-4">
+				<!-- instructions -->
+				<div class="gameStyle">
+						<h2>Instructions</h2>
+						<ol>
+							<li>Press Play to Start</li>
+							<li>Press the Rock, Paper, Scissors buttons to guess</li>
+							<li>Press Retry to try again</li>
+						</ol>
+				</div>
+			</aside>
+		</div>
+	</main>	
+	<!-- footer	 -->
+	<footer class="row navbar-fixed-bottom">
+		<!-- copyright -->
+		<h4>@ Copyright 2018 Andrew Johnson</h4>
+	</footer>
+	<!-- script link -->
+  <script type="text/javascript" src="assets/js/rockPaperScissors.js"></script>
+</body>
+</html>
